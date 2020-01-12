@@ -1,0 +1,21 @@
+{
+  "name": "latios",
+  "version": "1.0.0",
+  "description": "Pokemon bot",
+  "main": "latios.js",
+  "scripts": {
+    "test": "Error"
+  },
+  "author": "Mrthomas20121",
+  "license": "MIT",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "file-download": "^0.1.2",
+    "request": "^2.87.0",
+    "sweetcord": "^1.0.4",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "helper": "git+https://github.com/Mrthomas20121/discordHelper.git"
+  }
+}
