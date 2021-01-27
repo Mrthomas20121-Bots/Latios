@@ -23,7 +23,7 @@ const bot = new Sweetcord.SweetClient({
   token: auth.token,
   autorun: true
 });
-
++
 bot.on("ready", function(event) {
   console.log("Logged in as %s\n", bot.username);
   inventory = JSON.parse(fs.readFileSync("./data/inventory.json", { encoding:'utf8'}));

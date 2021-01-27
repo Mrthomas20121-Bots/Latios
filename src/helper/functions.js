@@ -32,12 +32,13 @@ function catchPkmn(pokemon, chance) {
   let i = 0;
   let bool = false;
   while (i<3 && bool == false) {
-    i++;
-    let randInt = Math.floor(Math.random()*chance);
-    if(!randInt<=30) {
+    let randInt = Math.random().toFixed(2)*chance;
+    console.log(chance);
+    if(0<randInt<0.4) {
       // success
       bool == true
-    }       
+    }
+    i++;     
   }
   if(bool || chance == 1) {
     result = "caught"

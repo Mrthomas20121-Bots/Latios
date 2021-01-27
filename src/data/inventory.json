@@ -1,10 +1,21 @@
 {
   "138347158385590272": {
-    "pokeball": 2,
+    "pokeball": 17,
     "greatball": 1,
-    "ultraball": 0,
+    "ultraball": 20,
     "masterball": 0,
     "toxicroak": "toxicroak",
-    "shaymin-land": "shaymin-land"
+    "shaymin-land": "shaymin-land",
+    "scrafty": "scrafty",
+    "weepinbell": "weepinbell",
+    "glaceon": "glaceon",
+    "braixen": "braixen",
+    "herdier": "herdier",
+    "rhyperior": "rhyperior",
+    "archeops": "archeops",
+    "snubbull": "snubbull",
+    "superball": null,
+    "zorua": "zorua",
+    "emolga": "emolga"
   }
 }
